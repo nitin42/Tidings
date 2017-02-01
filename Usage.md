@@ -1,4 +1,4 @@
-# Usage
+# How to make a request ?
 
 Below are some examples to make a request but you can try and make your own. 
 
