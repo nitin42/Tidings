@@ -9,7 +9,13 @@ Tidings is a NLP based news applications that extracts the intents and entities 
 
 ## Current status
 
-You can check the app [here](http://tidings.netlify.com/). Its currently in development but I am repeatedly updating and fixing the issues. The target is to complete all the [these](#Goals) tasks to finally deploy the production ready build.
+You can check the app [here](http://tidings.netlify.com/). Its currently in development but I am repeatedly updating and fixing the issues. The target is to complete all the below mention goals and to finally deploy the production ready build.
+
+## Goals
+- [ ] Server side rendering
+- [ ] Write tests
+- [ ] real-time updates
+- [ ] Offline-first
 
 ## Powered by
 
@@ -37,11 +43,6 @@ For eg -
 
 Refer to [this]() guide more info.
 
-## Goals
-- [ ] Server side rendering
-- [ ] Write tests
-- [ ] real-time updates
-- [ ] Offline-first
 
 ## Contributing
 
@@ -54,7 +55,6 @@ Contributions are appreciated. Here are some ideas to improve the app further.
 * Request for a new category for news
 * Issues regarding the fulfilment of a request
 * Add tests
-
 
 ## License
 ISC
