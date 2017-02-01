@@ -41,7 +41,7 @@ For eg -
  
 > ***What's new on the Techcrunch!***
 
-Refer to [this]() guide more info.
+Refer to [this](https://github.com/nitin42/Tidings/blob/master/Usage.md) guide more info.
 
 
 ## Contributing
