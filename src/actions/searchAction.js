@@ -10,7 +10,8 @@ import {insider_uk, sky_sports, engadget, ign, four_four_two, hacker_news_latest
 let searchNews = (source, dispatch) => {
   if (source !== '' && source !== undefined) {
     dispatch({
-      type: SEARCH_PENDING
+      type: SEARCH_PENDING,
+      api_source: source
     });
   } else {
     dispatch({
