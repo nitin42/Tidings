@@ -1,6 +1,6 @@
 {
   "name": "tidings",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "A NLP based news app powered by API.ai",
   "main": "index.js",
   "scripts": {
