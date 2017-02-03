@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --watch",
+    "test": "jest",
     "build": "webpack --config ./webpack.production.config.js --progress --profile --colors"
+  },
+  "presets": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
   },
   "author": "Nitin Tulswani <tulswani19@gmail.com>",
   "license": "ISC",
@@ -29,7 +36,9 @@
     "autoprefixer": "^6.7.0",
     "babel": "^6.5.2",
     "babel-core": "^6.13.2",
+    "babel-jest": "^18.0.0",
     "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.22.0",
     "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-2": "^6.13.0",
@@ -38,6 +47,7 @@
     "express": "^4.14.1",
     "extract-text-webpack-plugin": "^2.0.0-rc.2",
     "html-webpack-plugin": "^2.26.0",
+    "jest": "^18.1.0",
     "json-loader": "^0.5.4",
     "node-sass": "^4.4.0",
     "postcss-loader": "^0.9.1",
