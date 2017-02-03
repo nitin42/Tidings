@@ -54,9 +54,11 @@
     "mocha": "^3.2.0",
     "node-sass": "^4.4.0",
     "postcss-loader": "^0.9.1",
+    "react-addons-test-utils": "^15.4.2",
     "react-hot-loader": "^3.0.0-beta.6",
-    "redux-mock-store": "^1.2.1",
+    "redux-mock-store": "^1.2.2",
     "sass-loader": "^4.1.1",
+    "sinon": "^1.17.7",
     "style-loader": "^0.13.1",
     "webpack": "^2.1.0-beta.25",
     "webpack-dev-server": "^2.1.0-beta.0"
