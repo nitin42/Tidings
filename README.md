@@ -1,4 +1,6 @@
 # Tidings
+[![Build Status](https://travis-ci.org/nitin42/Tidings.svg?branch=master)](https://travis-ci.org/nitin42/Tidings)
+
 > A NLP based news application powered by [API.ai](api.ai)
 
 <br/><br/><br/>![](https://github.com/nitin42/Tidings/blob/master/working.gif)
