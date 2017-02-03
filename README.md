@@ -15,7 +15,7 @@ You can check the app [here](http://tidings.netlify.com/). Its currently in deve
 
 ## Goals
 - [ ] Server side rendering
-- [ ] Write tests
+- [x] Write tests
 - [ ] real-time updates
 - [ ] Offline-first
 
