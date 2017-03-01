@@ -62,7 +62,7 @@ module.exports = {
     }),
     new ExtractTextPlugin({ filename: 'bundle.css', disable: false, allChunks: true }),
     require('autoprefixer'),
-    new webpack.optimize.UglifyJsPlugin(),
+//     new webpack.optimize.UglifyJsPlugin(),
     new webpack.optimize.CommonsChunkPlugin({
       names: ['vendor', 'manifest'],
 
