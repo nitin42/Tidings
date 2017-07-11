@@ -28,6 +28,7 @@ export const tw_profile = `https://twitter.com/NTulswani`
 export const ins_profile = `https://www.instagram.com/nitintulswani/`
 export const med_profile = `https://medium.com/@NTulswani`
 export const git_profile = `https://github.com/nitin42`
+<<<<<<< HEAD
 export const data = {
   "author": null,
   "title": "Barnwell's Super Bowl LI preview: Why I'm predicting a rout",
@@ -36,3 +37,5 @@ export const data = {
   "urlToImage": "http://a.espncdn.com/combiner/i?img=%2Fphoto%2F2017%2F0201%2Fnfl_g_brady%2Dryan01jr_1296x729.jpg",
   "publishedAt": "2017-02-02T17:46:11Z"
 }
+=======
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55

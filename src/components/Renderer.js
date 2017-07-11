@@ -3,7 +3,11 @@ import ReactDelayRender from 'react-delay-render';
 import moment from 'moment-timezone';
 import ProgressiveImage from 'react-progressive-image';
 
+<<<<<<< HEAD
 import { Content, Image } from '../styled_components';
+=======
+import {Content, Image} from '../styled_components';
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
 
 const style = {
   height: "250px",

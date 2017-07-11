@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { LOADING, LOADED } from '../constants/SearchActionTypes';
+=======
+import {LOADING, LOADED} from '../constants/SearchActionTypes';
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
 
 let initialState = {
   initMsg: "Welcome to Tidings. A NLP based news application powered by API.ai. You can start by typing 'recent news' ",

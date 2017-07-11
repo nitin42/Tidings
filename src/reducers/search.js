@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { SEARCH_PENDING, SEARCH_DONE, IDLE, NO_MORE } from '../constants/SearchActionTypes';
+=======
+import {SEARCH_PENDING, SEARCH_DONE, IDLE, NO_MORE} from '../constants/SearchActionTypes';
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
 
 let initialState = {
   headlines: [],

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 
   {
     SEARCH_PENDING, 
@@ -29,6 +30,15 @@ import
     nat
   }
 from '../components/utility';
+=======
+import {SEARCH_PENDING, SEARCH_DONE, IDLE, LOADING, LOADED}
+  from '../constants/SearchActionTypes';
+import {universal, connect_apiai}
+  from '../api/news';
+import {insider_uk, sky_sports, engadget, ign, four_four_two, hacker_news_latest,
+  reddit_top, theVerge_top, lad, nat}
+  from '../components/utility';
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
 
 // ----------- Action creators -----------
 let searchNews = (source, dispatch) => {
@@ -42,7 +52,10 @@ let searchNews = (source, dispatch) => {
       type: IDLE
     });
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
   universal(source, (data) => {
     dispatch({
       type: SEARCH_DONE,
@@ -62,7 +75,10 @@ let botStarter = (term, dispatch) => {
       type: IDLE
     });
   }
+<<<<<<< HEAD
   
+=======
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
   connect_apiai(term, (response) => {
     dispatch({
       type: LOADED,

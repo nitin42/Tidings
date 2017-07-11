@@ -17,9 +17,13 @@ import Entertainment from '../components/News/Entertainment';
 import Picture from '../components/Picture';
 
 import Head from '../Header';
+<<<<<<< HEAD
 
 import Message from '../BotMsg';
 
+=======
+import Message from '../BotMsg';
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
 import Sharing from '../Social';
 
 import {Title, Main, Loader} from '../styled_components';

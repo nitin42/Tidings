@@ -1,10 +1,15 @@
 import React from 'react';
 
 import Renderer from './Renderer';
+<<<<<<< HEAD
 
 import Loader from './Loading';
 
 import { Button, Click } from '../styled_components';
+=======
+import Loader from './Loading';
+import {Button, Click} from '../styled_components';
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
 
 // High order component
 let HOC = (Composition, source) => class extends React.Component {

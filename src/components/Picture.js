@@ -1,6 +1,10 @@
 import React from 'react';
 
+<<<<<<< HEAD
 import { Display } from '../styled_components'
+=======
+import {Display} from '../styled_components'
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
 
 export default class Picture extends React.Component {
   componentWillMount () {

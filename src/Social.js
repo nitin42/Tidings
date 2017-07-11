@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {Social, Name, Link} from './styled_components';
+<<<<<<< HEAD
 
 import
   {
@@ -16,6 +17,11 @@ import
     ins_profile, 
     med_profile
   }
+=======
+import
+{facebook, twitter, github, instagram, medium, heart, fb_profile, git_profile,
+tw_profile, ins_profile, med_profile}
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
 from './components/utility';
 
 const style = {

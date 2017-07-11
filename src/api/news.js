@@ -16,11 +16,17 @@ export let connect_apiai = (term, callback) => {
         callback(response);
       }
   });
+<<<<<<< HEAD
 
   request.on('error', (error) => {
     throw new Error('Client not connected properly.');
   });
   
+=======
+  request.on('error', (error) => {
+    throw new Error('Client not connected properly.');
+  });
+>>>>>>> dda84c5e72caf0ed43fabb18890f0ec2c9493e55
   request.end();
 }
 
